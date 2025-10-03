@@ -1,9 +1,15 @@
-
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Calculator</title>
     <style>
+        @font-face {
+            font-family: 'DS-Digital Normal';
+            font-style: normal;
+            font-weight: normal;
+            src: local('DS-Digital Normal'), url('DS-DIGI.woff') format('woff');
+        }
         .calculator-body {
             height: auto;
             width: 400px;
@@ -23,6 +29,7 @@
             border-radius: 5px;
             display: block;
             margin-bottom: 20px;
+            font-family: "DS-Digital Normal";
         }
 
         .button-container {
@@ -61,6 +68,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="calculator-body">
         <input type="text" value="0" class="screen" />
@@ -102,4 +110,5 @@
         </div>
     </div>
 </body>
+
 </html>
